@@ -18,6 +18,7 @@ export class BookService {
           author: createBookDto.author,
           publicationYear: createBookDto.publicationYear,
         },
+        ReturnValues: 'ALL_OLD',
       })
       .promise();
   }
